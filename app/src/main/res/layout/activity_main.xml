@@ -1,0 +1,34 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Interfața principală a aplicației -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Textul care va fi afișat sau ascuns -->
+    <TextView
+        android:id="@+id/textAfisat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salut! Bine ai venit!"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Butonul pentru afișarea sau ascunderea textului -->
+    <Button
+        android:id="@+id/butonAfisare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afișare / Ascundere"
+        app:layout_constraintTop_toBottomOf="@id/textAfisat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
