@@ -29,7 +29,7 @@ Interfața grafică este realizată în XML, utilizând `ConstraintLayout`, `Tex
 ## 4. Structura proiectului
 
 ```text
-Aplicatie-Afisare-Text/
+Aplicatie-Android-Afisare-Text/
 │
 ├── README.md
 ├── build.gradle
@@ -203,7 +203,7 @@ The user interface is built with XML using `ConstraintLayout`, `TextView`, and `
 ## 4. Project Structure
 
 ```text
-Aplicatie-Afisare-Text/
+Aplicatie-Android-Afisare-Text/
 │
 ├── README.md
 ├── build.gradle
